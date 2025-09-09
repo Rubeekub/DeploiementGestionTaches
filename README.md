@@ -50,7 +50,7 @@ ALTER TABLE TACHES ADD CONSTRAINT PK_Taches PRIMARY KEY (Id);
 
 
 ## Configuration application
-- Remplacer les valeurs source, user ID et mot de passe  dans le fichier appsetting.json et ne pas conserver les accolades
+- Remplacer les valeurs source, user ID et mot de passe  dans le fichier appsettings.json et ne pas conserver les accolades
 (ne laisser pas d'espace apres noté vos informations)
 ``` JSON
 {
