@@ -46,7 +46,9 @@ ALTER TABLE TACHES ADD CONSTRAINT PK_Taches PRIMARY KEY (Id);
 - créer un dossier de votre choix
 - Ouvrir un terminal dans ce dossier
 - Cloner le dépôt git en tapant la commande dans l'invite de commande 
-```bash git clone https://github.com/Rubeekub/DeploiementGestionTaches.git ```
+``` 
+ git clone https://github.com/Rubeekub/DeploiementGestionTaches.git 
+```
 
 
 ## Configuration application
