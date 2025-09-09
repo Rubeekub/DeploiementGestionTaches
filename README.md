@@ -1,17 +1,15 @@
 # GestionTaches
 
 ## Contenu de l’archive
-Dossier release : application avec fichier.exe 
-Fichier de base de données : BDD.sql
-README.md : ce fichier explicatif.
+- Dossier release : application avec fichier.exe 
+- Fichier de base de données : BDD.sql
+- README.md : ce fichier explicatif.
 
 ## Prérequis
-
-Windows 10/11
-.NET 8 Runtime installé
-SQL Server installé sur la machine
-Visual Studio 2022 (optionnel pour modification du code source)
-
+- Windows 10/11
+- .NET 8 Runtime installé
+- SQL Server installé sur la machine
+- Visual Studio 2022 (optionnel pour modification du code source)
 
 ## Base de données
 - Créer la bdd avec le fichier BDD.sql ou copier le script suivant dans microsoft serveur en tant que master
