@@ -1,11 +1,24 @@
 # GestionTaches
 
+## Contenu de l’archive
+Dossier release : application avec fichier.exe 
+Fichier de base de données : BDD.sql
+README.md : ce fichier explicatif.
+
+## Prérequis
+
+Windows 10/11
+.NET 8 Runtime installé
+SQL Server installé sur la machine
+Visual Studio 2022 (optionnel pour modification du code source)
+
+
 ## Base de données
-- creer la bdd avec le fichier BDD.sqlou copier le script suivant dans microsoft serveur en tant que master
+- Créer la bdd avec le fichier BDD.sql ou copier le script suivant dans microsoft serveur en tant que master
 ```SQL
 CREATE DATABASE Taches
 
-USE [Taches]
+USE Taches
 GO
 
 SET ANSI_NULLS ON
@@ -24,8 +37,21 @@ CREATE TABLE dbo.TACHES(
 ALTER TABLE TACHES ADD CONSTRAINT PK_Taches PRIMARY KEY (Id);
 ```
 
+## Récupération de l'application
+
+### Télécharger l'archive zip 
+- Extraire le dossier release de l'archive dans un répertoire de votre choix
+- Ouvrir le dossier release
+
+
+### Recuperation depuis git
+- créer un dossier de votre choix
+- Ouvrir un terminal dans ce dossier
+- Cloner le dépôt git en tapant la commande dans l'invite de commande ```bash git clone https://github.com/Rubeekub/DeploiementGestionTaches.git ```
+
+
 ## Configuration application
-- remplacer les valeurs source, user ID et mot de passe  dans le fichier appsetting.json et ne pas conserver les accolades
+- Remplacer les valeurs source, user ID et mot de passe  dans le fichier appsetting.json et ne pas conserver les accolades
 (ne laisser pas d'espace apres noté vos informations)
 ``` JSON
 {
@@ -34,5 +60,6 @@ ALTER TABLE TACHES ADD CONSTRAINT PK_Taches PRIMARY KEY (Id);
   }
 }
 ```
-## Lancer l'application en lance le fichier 
+
+## Lancer l'application en lançant le fichier 
 "GestionTaches.exe"
